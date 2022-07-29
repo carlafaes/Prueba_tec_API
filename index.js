@@ -11,7 +11,7 @@ app.use(morgan('dev'));
 
 const cors = require('cors');
 const corsOptions ={
-    origin:'http://localhost:5000', 
+    origin:'*', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
